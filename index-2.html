@@ -1,0 +1,623 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pendaftaran Ekstrakurikuler | SMK Negeri Tengaran</title>
+    <link rel="stylesheet" href="form.css">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="bg-shape bg-shape-1"></div>
+    <div class="bg-shape bg-shape-2"></div>
+
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+
+    <header class="navbar">
+
+        <div class="brand">
+
+            <div class="brand-logo">
+                <i class="fa-solid fa-book-open"></i>
+            </div>
+
+            <div class="brand-text">
+                <h2>Ekstrakurikuler</h2>
+                <span>SMK Negeri Tengaran</span>
+            </div>
+
+        </div>
+
+        <div class="navbar-tag">
+            Bergabung <span>•</span>
+            Berkembang <span>•</span>
+            Berprestasi
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main class="main-container">
+
+        <section class="registration-card">
+
+            <!-- LEFT PANEL -->
+
+            <div class="intro-panel">
+
+                <div class="intro-content">
+
+                    <div class="small-badge">
+                        <i class="fa-solid fa-user-plus"></i>
+                        Pendaftaran Anggota
+                    </div>
+
+                    <h1>
+                        Ekstrakurikuler<br>
+                        <span>SMK Negeri Tengaran</span>
+                    </h1>
+
+                    <p class="intro-description">
+                        Wadah untuk mengembangkan minat, bakat, dan
+                        potensi diri, serta membangun relasi dan
+                        pengalaman berharga bersama.
+                    </p>
+
+                    <div class="quote">
+
+                        <i class="fa-solid fa-quote-left"></i>
+
+                        <p>
+                            Temukan Ekstrakurikuler<br>
+                            yang sesuai dengan minatmu!
+                        </p>
+
+                        <div class="quote-line"></div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SCHOOL ILLUSTRATION -->
+
+                <div class="school-scene">
+
+                    <div class="sun"></div>
+
+                    <div class="cloud cloud-one"></div>
+                    <div class="cloud cloud-two"></div>
+
+                    <div class="school-building">
+
+                        <div class="school-roof"></div>
+
+                        <div class="school-main">
+
+                            <div class="school-floor">
+                                <div class="window"></div>
+                                <div class="window"></div>
+                            </div>
+
+                            <div class="school-door">
+                                <div class="door-handle"></div>
+                            </div>
+
+                            <div class="school-floor">
+                                <div class="window"></div>
+                                <div class="window"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="school-sign">
+                            SMK
+                        </div>
+
+                    </div>
+
+                    <div class="tree tree-left">
+                        <div class="tree-top"></div>
+                        <div class="tree-trunk"></div>
+                    </div>
+
+                    <div class="tree tree-right">
+                        <div class="tree-top"></div>
+                        <div class="tree-trunk"></div>
+                    </div>
+
+                    <div class="grass"></div>
+
+                    <div class="flag-pole">
+
+                        <div class="flag">
+                            <span></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT PANEL -->
+
+            <div class="form-panel">
+
+                <div class="form-header">
+
+                    <div class="form-header-icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+
+                    <div>
+                        <h2>Formulir Pendaftaran</h2>
+                        <p>Anggota Ekstrakurikuler</p>
+                    </div>
+
+                </div>
+
+
+                <!-- FORM -->
+
+                <form id="registrationForm" novalidate>
+
+                    <!-- NAMA -->
+
+                    <div class="form-group">
+
+                        <label for="nama">
+                            Nama Lengkap
+                        </label>
+
+                        <div class="input-wrapper" id="namaWrapper">
+
+                            <i class="fa-regular fa-user input-icon"></i>
+
+                            <input
+                                type="text"
+                                id="nama"
+                                placeholder="Masukkan nama lengkap Anda"
+                                autocomplete="name"
+                            >
+
+                        </div>
+
+                        <div
+                            class="validation-message"
+                            id="namaMessage">
+                        </div>
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <div class="input-wrapper" id="emailWrapper">
+
+                            <i class="fa-regular fa-envelope input-icon"></i>
+
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="contoh@email.com"
+                                autocomplete="email"
+                            >
+
+                        </div>
+
+                        <div
+                            class="validation-message"
+                            id="emailMessage">
+                        </div>
+
+                    </div>
+
+
+                    <!-- PASSWORD -->
+
+                    <div class="form-group">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+                        <div class="input-wrapper" id="passwordWrapper">
+
+                            <i class="fa-solid fa-lock input-icon"></i>
+
+                            <input
+                                type="password"
+                                id="password"
+                                placeholder="Minimal 8 karakter"
+                                autocomplete="new-password"
+                            >
+
+                            <button
+                                type="button"
+                                class="toggle-password"
+                                data-target="password"
+                                aria-label="Tampilkan password">
+
+                                <i class="fa-regular fa-eye"></i>
+
+                            </button>
+
+                        </div>
+
+                        <div
+                            class="validation-message"
+                            id="passwordMessage">
+                        </div>
+
+                    </div>
+
+
+                    <!-- CONFIRM PASSWORD -->
+
+                    <div class="form-group">
+
+                        <label for="confirmPassword">
+                            Konfirmasi Password
+                        </label>
+
+                        <div
+                            class="input-wrapper"
+                            id="confirmPasswordWrapper">
+
+                            <i class="fa-solid fa-lock input-icon"></i>
+
+                            <input
+                                type="password"
+                                id="confirmPassword"
+                                placeholder="Ulangi password"
+                                autocomplete="new-password"
+                            >
+
+                            <button
+                                type="button"
+                                class="toggle-password"
+                                data-target="confirmPassword"
+                                aria-label="Tampilkan password">
+
+                                <i class="fa-regular fa-eye"></i>
+
+                            </button>
+
+                        </div>
+
+                        <div
+                            class="validation-message"
+                            id="confirmPasswordMessage">
+                        </div>
+
+                    </div>
+
+
+                    <!-- EKSTRA -->
+
+                    <div class="form-group">
+
+                        <label>
+                            Ekstrakurikuler
+                        </label>
+
+                        <div
+                            class="custom-select"
+                            id="customSelect">
+
+                            <div
+                                class="select-box"
+                                id="selectBox">
+
+                                <div class="select-left">
+
+                                    <i class="fa-solid fa-users"></i>
+
+                                    <span id="selectedText">
+                                        Pilih ekstrakurikuler
+                                    </span>
+
+                                </div>
+
+                                <i class="fa-solid fa-chevron-down select-arrow"></i>
+
+                            </div>
+
+                            <div class="dropdown-menu">
+
+                                <div class="option" data-value="Pramuka">
+                                    <i class="fa-solid fa-campground"></i>
+                                    <span>Pramuka</span>
+                                </div>
+
+                                <div class="option" data-value="PMR">
+                                    <i class="fa-solid fa-kit-medical"></i>
+                                    <span>PMR</span>
+                                </div>
+
+                                <div class="option" data-value="Paskibra">
+                                    <i class="fa-solid fa-flag"></i>
+                                    <span>Paskibra</span>
+                                </div>
+
+                                <div class="option" data-value="Tari">
+                                    <i class="fa-solid fa-person-walking"></i>
+                                    <span>Tari</span>
+                                </div>
+
+                                <div class="option" data-value="Jurnalis">
+                                    <i class="fa-solid fa-newspaper"></i>
+                                    <span>Jurnalis</span>
+                                </div>
+
+                                <div class="option" data-value="Bahasa Jepang">
+                                    <i class="fa-solid fa-language"></i>
+                                    <span>Bahasa Jepang</span>
+                                </div>
+
+                                <div class="option" data-value="Paduan Suara">
+                                    <i class="fa-solid fa-music"></i>
+                                    <span>Paduan Suara</span>
+                                </div>
+
+                                <div class="option" data-value="Rohis">
+                                    <i class="fa-solid fa-mosque"></i>
+                                    <span>Rohis</span>
+                                </div>
+
+                                <div class="option" data-value="Bela Diri / Silat">
+                                    <i class="fa-solid fa-hand-fist"></i>
+                                    <span>Bela Diri / Silat</span>
+                                </div>
+
+                                <div class="option" data-value="MTQ">
+                                    <i class="fa-solid fa-book-quran"></i>
+                                    <span>MTQ</span>
+                                </div>
+
+                                <div class="option" data-value="Rebana">
+                                    <i class="fa-solid fa-drum"></i>
+                                    <span>Rebana</span>
+                                </div>
+
+                                <div class="option" data-value="OSIS">
+                                    <i class="fa-solid fa-people-group"></i>
+                                    <span>OSIS</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="validation-message"
+                            id="extraMessage">
+                        </div>
+
+                    </div>
+
+
+                    <!-- SUBMIT -->
+
+                    <button
+                        type="submit"
+                        class="submit-btn"
+                        id="submitBtn">
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                        <span>Daftar</span>
+
+                    </button>
+
+                </form>
+
+
+                <!-- SUCCESS -->
+
+                <div
+                    class="success-box"
+                    id="successBox">
+
+                    <div class="success-icon">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Pendaftaran Berhasil!
+                        </strong>
+
+                        <span>
+                            Terima kasih telah mendaftar sebagai
+                            anggota ekstrakurikuler.
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         CHATBOT
+    ====================================================== -->
+
+    <button
+        class="chatbot-button"
+        id="chatbotButton"
+        aria-label="Buka chatbot">
+
+        <i class="fa-solid fa-comments"></i>
+
+    </button>
+
+
+    <div
+        class="chatbot-box"
+        id="chatbotBox">
+
+        <!-- CHATBOT HEADER -->
+
+        <div class="chatbot-header">
+
+            <div class="chatbot-avatar">
+                <i class="fa-solid fa-robot"></i>
+            </div>
+
+            <div class="chatbot-header-info">
+
+                <strong>
+                    Asisten Ekstrakurikuler
+                </strong>
+
+                <span>
+                    Siap membantu pendaftaran
+                </span>
+
+            </div>
+
+            <div class="chatbot-status"></div>
+
+        </div>
+
+
+        <!-- CHAT MESSAGES -->
+
+        <div
+            class="chatbot-messages"
+            id="chatbotMessages">
+
+            <div class="chat-message bot">
+
+                Halo! Saya Asisten Ekstrakurikuler
+                SMK Negeri Tengaran.
+
+                <br><br>
+
+                Saya bisa membantu menjawab pertanyaan
+                tentang pendaftaran dan ekstrakurikuler.
+
+                <span class="chat-time">
+                    Sekarang
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- QUICK QUESTIONS -->
+
+        <div class="chatbot-quick">
+
+            <button
+                class="quick-btn"
+                data-question="Bagaimana cara mendaftar?">
+
+                Cara daftar
+
+            </button>
+
+            <button
+                class="quick-btn"
+                data-question="Apa saja ekstrakurikulernya?">
+
+                Daftar ekstra
+
+            </button>
+
+            <button
+                class="quick-btn"
+                data-question="Apa syarat password?">
+
+                Password
+
+            </button>
+
+        </div>
+
+
+        <!-- CHAT INPUT -->
+
+        <div class="chatbot-input-area">
+
+            <input
+                type="text"
+                id="chatbotInput"
+                class="chatbot-input"
+                placeholder="Tulis pertanyaan..."
+                autocomplete="off"
+            >
+
+            <button
+                class="chatbot-send"
+                id="chatbotSend"
+                aria-label="Kirim pesan">
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <i class="fa-regular fa-copyright"></i>
+
+        <span>
+            2026 SMK Negeri Tengaran
+        </span>
+
+        <span>|</span>
+
+        <span>
+            Ekstrakurikuler
+        </span>
+
+    </footer>
+    <script src="form.js"></script>
+</body>
+</html>
+
